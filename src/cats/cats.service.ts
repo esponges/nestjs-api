@@ -21,5 +21,6 @@ export class CatsService {
 
   createCat(cat) {
     this.cats.push(cat);
+    return `Cat ${cat.name} created`;
   }
 }
